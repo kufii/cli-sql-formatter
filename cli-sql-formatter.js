@@ -24,12 +24,10 @@ program
 
 const getInput = () => program.file ? readFile(program.file, 'utf-8') : getStdin();
 const writeOutput = output => program.out ? writeFile(program.out, output) : console.log(output);
+const formatSql = sql => sqlFormatter.format(sql, {
+	language: program.dialect,
+	indent: program.tab ? '\t' : ' '.repeat(program.indent)
+});
+const run = input => writeOutput(formatSql(input));
 
-getInput().then(
-	input => writeOutput(
-		sqlFormatter.format(input, {
-			language: program.dialect,
-			indent: program.tab ? '\t' : ' '.repeat(program.indent)
-		})
-	)
-);
+getInput().then(run);
