@@ -13,6 +13,7 @@ npm install -g cli-sql-formatter
 ## Usage
 
 ```
+$ cli-sql-formatter -h
 Usage: cli-sql-formatter [options]
 
 Options:
