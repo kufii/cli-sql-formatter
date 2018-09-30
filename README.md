@@ -25,7 +25,7 @@ Options:
   -t, --tabs               indent with tabs
   -h, --help               output usage information
 
-$ echo SELECT * FROM table WHERE n = 1 | node cli-sql-formatter.js
+$ echo "SELECT * FROM table WHERE n = 1" | node cli-sql-formatter.js
 SELECT
   *
 FROM
