@@ -23,7 +23,7 @@ Options:
   -o, --out <file>         output results to a file
   -d, --dialect <dialect>  which dialect to format with (sql: Standard SQL, n1ql: Couchbase N1QL, db2: IBM DB2, pl/sql: Oracle PL/SQL) (default: sql)
   -i, --indent <n>         number of spaces to indent with (default: 2)
-  -t, --tabs               indent with tabs
+  -t, --tab               indent with tabs
   -h, --help               output usage information
 
 $ echo "SELECT * FROM table WHERE n = 1" | cli-sql-formatter
