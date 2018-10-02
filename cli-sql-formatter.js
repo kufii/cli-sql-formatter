@@ -13,7 +13,7 @@ const readFile = promisify(fs.readFile);
 const writeFile = promisify(fs.writeFile);
 
 program
-	.version(version)
+	.version(version, '-v, --version')
 	.usage('[options]')
 	.option('-f, --file <file>', 'load SQL from a file')
 	.option('-o, --out <file>', 'output results to a file')
