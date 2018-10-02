@@ -18,7 +18,7 @@ Usage: cli-sql-formatter [options]
 
 Options:
 
-  -V, --version            output the version number
+  -v, --version            output the version number
   -f, --file <file>        load SQL from a file
   -o, --out <file>         output results to a file
   -d, --dialect <dialect>  which dialect to format with (sql: Standard SQL, n1ql: Couchbase N1QL, db2: IBM DB2, pl/sql: Oracle PL/SQL) (default: sql)
