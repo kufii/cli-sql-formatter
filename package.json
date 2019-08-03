@@ -28,10 +28,10 @@
   "dependencies": {
     "commander": "^2.18.0",
     "get-stdin": "^6.0.0",
-    "sql-formatter": "^2.3.1"
+    "sql-formatter": "^2.3.3"
   },
   "devDependencies": {
-    "eslint": "^5.6.1",
-    "eslint-config-adpyke-es6": "^1.1.6"
+    "eslint": "^5.16.0",
+    "eslint-config-adpyke-es6": "^1.4.6"
   }
 }
