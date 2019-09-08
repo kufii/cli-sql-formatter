@@ -1,7 +1,7 @@
 {
-	"extends": "adpyke-es6",
-	"env": {
-		"browser": false,
-		"node": true
-	}
+  "extends": ["adpyke-es6", "prettier"],
+  "env": {
+    "browser": false,
+    "node": true
+  }
 }
