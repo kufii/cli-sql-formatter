@@ -6,7 +6,8 @@
     "cli-sql-formatter": "cli-sql-formatter.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "format": "prettier --write \"**/*.{js,jsx,md,json,css,prettierrc,eslintrc}\""
   },
   "repository": {
     "type": "git",
@@ -26,14 +27,14 @@
   "author": "Adrien Pyke",
   "license": "ISC",
   "dependencies": {
-    "commander": "^2.18.0",
-    "get-stdin": "^6.0.0",
+    "commander": "^3.0.1",
+    "get-stdin": "^7.0.0",
     "sql-formatter": "^2.3.3"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-adpyke-es6": "^1.4.11",
-    "eslint-config-prettier": "^6.2.0",
+    "eslint": "^6.4.0",
+    "eslint-config-adpyke-es6": "^1.4.12",
+    "eslint-config-prettier": "^6.3.0",
     "prettier": "^1.18.2"
   }
 }

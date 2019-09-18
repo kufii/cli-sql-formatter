@@ -6,13 +6,13 @@ A console interface for [sql-formatter](https://github.com/zeroturnaround/sql-fo
 
 This tool can be installed via npm
 
-```
+```shell
 npm install -g cli-sql-formatter
 ```
 
 ## Usage
 
-```
+```shell
 $ cli-sql-formatter -h
 Usage: cli-sql-formatter [options]
 
