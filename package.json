@@ -27,14 +27,15 @@
   "author": "Adrien Pyke",
   "license": "ISC",
   "dependencies": {
-    "commander": "^3.0.1",
+    "commander": "^3.0.2",
+    "eol": "^0.9.1",
     "get-stdin": "^7.0.0",
     "sql-formatter": "^2.3.3"
   },
   "devDependencies": {
-    "eslint": "^6.4.0",
+    "eslint": "^6.5.1",
     "eslint-config-adpyke-es6": "^1.4.12",
-    "eslint-config-prettier": "^6.3.0",
+    "eslint-config-prettier": "^6.4.0",
     "prettier": "^1.18.2"
   }
 }
