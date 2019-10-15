@@ -78,7 +78,8 @@ const getConfig = () => ({
 const formatSql = sql =>
 	getBlocks(eol.lf(sql))
 		.map(b => sqlFormatter.format(b, getConfig()))
-		.join('\n\n');
+		.join('\n\n')
+		.trim() + '\n';
 const run = input => writeOutput(formatSql(input));
 
 getInput().then(run);
