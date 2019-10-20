@@ -21,7 +21,7 @@ program
 	.option(
 		'-d, --dialect <dialect>',
 		'which dialect to format with (sql: Standard SQL, n1ql: Couchbase N1QL, db2: IBM DB2, pl/sql: Oracle PL/SQL)',
-		/^(sql|n1ql|db2|pl\/sql)$/i,
+		/^(sql|n1ql|db2|pl\/sql)$/iu,
 		'sql'
 	)
 	.option('-i, --indent <n>', 'number of spaces to indent with', str => parseInt(str), 2)

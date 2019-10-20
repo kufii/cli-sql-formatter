@@ -30,11 +30,11 @@
     "commander": "^3.0.2",
     "eol": "^0.9.1",
     "get-stdin": "^7.0.0",
-    "sql-formatter-plus": "^1.0.0"
+    "sql-formatter-plus": "^1.1.1"
   },
   "devDependencies": {
     "eslint": "^6.5.1",
-    "eslint-config-adpyke-es6": "^1.4.12",
+    "eslint-config-adpyke-es6": "^1.4.13",
     "eslint-config-prettier": "^6.4.0",
     "prettier": "^1.18.2"
   }
