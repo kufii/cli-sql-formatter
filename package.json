@@ -30,7 +30,7 @@
     "commander": "^3.0.2",
     "eol": "^0.9.1",
     "get-stdin": "^7.0.0",
-    "sql-formatter": "^2.3.3"
+    "sql-formatter-plus": "^1.0.0"
   },
   "devDependencies": {
     "eslint": "^6.5.1",

@@ -7,7 +7,7 @@ const { promisify } = require('util');
 const fs = require('fs');
 const program = require('commander');
 const getStdin = require('get-stdin');
-const sqlFormatter = require('sql-formatter');
+const sqlFormatter = require('sql-formatter-plus');
 const eol = require('eol');
 
 const readFile = promisify(fs.readFile);
