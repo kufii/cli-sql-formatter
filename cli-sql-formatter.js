@@ -26,6 +26,7 @@ program
 	)
 	.option('-i, --indent <n>', 'number of spaces to indent with', str => parseInt(str), 2)
 	.option('-t, --tab', 'indent with tabs')
+	.option('-u, --uppercase', 'convert keywords to uppercase')
 	.parse(process.argv);
 
 const getBlocks = text => {
@@ -73,7 +74,8 @@ const getInput = () => (program.file ? readFile(program.file, 'utf-8') : getStdi
 const writeOutput = output => (program.out ? writeFile(program.out, output) : console.log(output));
 const getConfig = () => ({
 	language: program.dialect,
-	indent: program.tab ? '\t' : ' '.repeat(program.indent)
+	indent: program.tab ? '\t' : ' '.repeat(program.indent),
+	uppercase: program.uppercase
 });
 const formatSql = sql =>
 	getBlocks(eol.lf(sql))
