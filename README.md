@@ -1,6 +1,6 @@
 # cli-sql-formatter
 
-A console interface for [sql-formatter](https://github.com/zeroturnaround/sql-formatter)
+A console interface for [sql-formatter-plus](https://github.com/kufii/sql-formatter-plus)
 
 ## Installation
 
